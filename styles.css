@@ -1,0 +1,97 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #55aaff;
+}
+
+/* About Me Section */
+#about {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+#about h2 {
+    font-size: 28px;
+    color: #007BFF;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #fff;
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project h3 {
+    color: #007BFF;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#
